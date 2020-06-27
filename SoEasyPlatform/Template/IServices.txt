@@ -1,0 +1,14 @@
+﻿using System;
+using System.Threading.Tasks;
+using HC.Common.Base;
+using HC.Common.Base.Services;
+using @Model.ClassNamespace;
+using @Model.ModelsNamespace;
+
+namespace @(Model.SolutionName).IServices
+{
+	 public interface I@(Model.Name)Services : IBaseServices<@Model.Name>
+	 {
+ 
+	 }
+}

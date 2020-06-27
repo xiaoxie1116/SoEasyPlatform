@@ -1,0 +1,18 @@
+﻿using HC.Common.Base;
+using HC.Common.Base.Repository;
+using SqlSugar;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using @Model.ClassNamespace;
+
+namespace @(Model.SolutionName).Repository
+{
+	public class @(Model.Name)Repository : BaseRepository<@(Model.Name)>,I@(Model.Name)Repository
+	{
+	    public @(Model.Name)Repository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+
+        }
+	}
+}
+

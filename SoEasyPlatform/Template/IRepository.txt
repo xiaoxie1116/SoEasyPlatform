@@ -1,0 +1,18 @@
+﻿using SqlSugar;
+using System;
+using HC.Common.Base;
+using HC.Common.Base.Repository;
+using @Model.ClassNamespace;
+using @Model.ModelsNamespace;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace @(Model.SolutionName).IRepository
+{
+	public interface I@(Model.Name)Repository : IBaseRepository<@(Model.Name)>
+	{
+
+	}
+}
+
+

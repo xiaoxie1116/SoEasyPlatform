@@ -1,0 +1,18 @@
+﻿using HC.Common.Base.Services;
+using HC.Common.Base.Base;
+using @Model.ClassNamespace;
+using @Model.ModelsNamespace;
+using @(Model.SolutionName).IRepository;
+using @(Model.SolutionName).IServices;
+
+namespace @(Model.SolutionName).Services
+{
+	public class @(Model.Name)Services : BaseServices<@Model.Name>, I@(Model.Name)Services
+    {
+        I@(Model.Name)Repository _@(Model.Name)Repository;
+		public  @(Model.Name)Services(I@(Model.Name)Repository @(Model.Name)Repository)
+        {
+            _@(Model.Name)Repository =@(Model.Name)Repository;           
+        }
+	}
+}
